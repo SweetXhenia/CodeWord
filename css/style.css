@@ -1,7 +1,7 @@
 /* NAVBAR */
 #title{
     padding: 0;
-    background-color: rgb(29, 108, 165);
+    background-color: #085394;
 }
 .navodkaz a{
     color: white;
@@ -15,10 +15,7 @@
     background-color: darkgrey;
     border-radius: 5px;
 }
-.container{
-    padding: 0;
-    margin: 0;
-}
+
 .navbar-brand{
     color: white;
     font-size: 2.5rem;
@@ -27,19 +24,188 @@
     color: antiquewhite;
 }
 .navbutton{
-    margin: auto 10px;
+    margin-left: 10px;
+}
+.navbar{
+    padding-bottom: 10px;
+    background-color: #085394;
+}
+.navpad{
+    padding: 0 70px;
 }
 
+/* TITULEK */
 
 .people1{
     width: 600px;
     text-align: center;
 }
 .people2{
-    width: 500px;
+    width: 470px;
 }
 .titulek{
     font-size: 4rem;
     text-align: center;
     color: white;
+}
+.page{
+    padding-top: 100px;
+}
+
+
+/* TEAM */
+#ourteam{
+background-color: #9FC5F8;
+padding: 50px 0;
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 25px;
+    font-weight: 900;
+}
+.carpic{
+    height: 200px;
+    display: block;
+margin: 0 auto;
+    
+}
+h4{
+    font-size: 2rem;
+    text-align: center;
+    padding: 30px;
+}
+.popisek{
+    text-align: center;
+    padding: 0 20%;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+.ourteampopisek{
+    text-align:justify;
+padding-left: 100px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2;
+}
+/* PRODUCT */
+.ourproduct{
+    background-color: #085394;
+    padding-top: 50px;
+}
+H2{
+    font-size: 2.5rem;
+text-align: center;
+padding-bottom: 20px;
+color: white;
+}
+.ourproduct p{
+    text-align: justify;
+    font-size: 1.5rem;
+    padding: 20px 100px;
+    color: white;
+    font-weight: 100;
+}
+
+
+/* pricing */
+
+#pricing{
+    padding: 100px 50px;
+    background-color: #9FC5F8;
+}
+#price{
+    font-weight: 900;
+}
+.txt{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+.card-text{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 900;
+}
+h3{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+.subbutt{
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+.card{
+    background-color: #b7d3f8;
+    border: 2px solid #085394;
+    border-radius: 30px;
+    filter: drop-shadow(0 0 0.75rem);
+    margin: 50px;
+}
+.card:hover{
+    background-color: #085394;
+    color: white;
+}
+/* PREFERENCE */
+#preference{
+    background-color: #085394;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.popisek2{
+text-align: center;
+font-size: 2rem;
+padding: 20px 20%;
+line-height: 2;
+font-weight: 100;
+}
+.carpic2{
+    height: 300px;
+  display: block;
+  margin: 0 auto;
+    padding-bottom: 50px;
+    
+}
+
+/* social media */
+
+#socmedia{
+    background-color: #9FC5F8;
+text-align: center;
+padding: 30px 0 90px;
+}
+/* LINKY */
+#links{
+    background-color: #085394;
+}
+
+.linky{
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.linky a{
+    margin-left: 50px;
+    color: white;
+    text-decoration: none;
+}
+.linky a:hover{
+    background-color: #9fc6f82c;
+    border-radius: 10px;
+}
+/* copyright */
+.copy{
+    background-color: #9FC5F8;
+    padding: 10px 0;
+}
+.copyright{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 100;
 }
