@@ -1,0 +1,45 @@
+/* NAVBAR */
+#title{
+    padding: 0;
+    background-color: rgb(29, 108, 165);
+}
+.navodkaz a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+.navodkaz a:hover{
+    color: antiquewhite;
+    background-color: darkgrey;
+    border-radius: 5px;
+}
+.container{
+    padding: 0;
+    margin: 0;
+}
+.navbar-brand{
+    color: white;
+    font-size: 2.5rem;
+}
+.navbar-brand:hover{
+    color: antiquewhite;
+}
+.navbutton{
+    margin: auto 10px;
+}
+
+
+.people1{
+    width: 600px;
+    text-align: center;
+}
+.people2{
+    width: 500px;
+}
+.titulek{
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+}
